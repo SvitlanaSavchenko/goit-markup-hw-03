@@ -1,0 +1,287 @@
+:root {
+  --primary-brand-color-iris: #4d5ae5;
+  --pressed-state-color-ocean: #404bbf;
+  --dark-color-navy-blue: #2e2f42;
+  --success-color-green: #31d0aa;
+  --text-color-slate: #434455;
+  --subtle-text-color-light-slate: #8e8f99;
+  --accent-color-cornflower: #e7e9fc;
+  --light-color-cloud: #f4f4fd;
+  --modal-overlay-color-navy-blue-modal: #2e2f42;
+  --hero-backgroound-color-grey: #2e2f42;
+  --white-background-color-white: #ffffff;
+  --modal-background-color-dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color-slate);
+  background-color: var(--white-background-color-white);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*index.html - WebStudio Page*/
+
+/*logo*/
+
+.logo-header,
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-blu {
+  color: var(--primary-brand-color-iris);
+}
+
+.logo-dark {
+  color: var(--dark-color-navy-blue);
+}
+
+.logo-light {
+  color: var(--light-color-cloud);
+}
+
+/*Header*/
+
+.nav-link {
+  color: var(--dark-color-navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pressed-state-color-ocean);
+}
+
+.header-adress {
+  font-style: normal;
+}
+
+.adress-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color-slate);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--pressed-state-color-ocean);
+}
+
+/*Hero section*/
+
+.hero {
+  background-color: var(--hero-backgroound-color-grey);
+}
+
+.hero-title {
+  color: var(--white-background-color-white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--white-background-color-white);
+  background-color: var(--primary-brand-color-iris);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color-ocean);
+}
+
+/*Advantage section*/
+
+.advantage-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color-navy-blue);
+}
+
+.advantage-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color-slate);
+}
+
+/*Our works section*/
+
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color-navy-blue);
+}
+
+/*Our team section*/
+
+.team {
+  background-color: var(--light-color-cloud);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color-navy-blue);
+}
+
+.team-list {
+  background-color: var(--white-background-color-white);
+}
+
+.team-list-item {
+  background-color: var(--white-background-color-white);
+}
+
+.employee-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color-navy-blue);
+}
+
+.team-title-employee {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color-slate);
+}
+
+/*Footer section*/
+
+.footer {
+  background-color: var(--dark-color-navy-blue);
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light-color-cloud);
+}
+
+/*portfolio.html - Portfolio page*/
+
+/*Portfolio section*/
+
+.button-filter {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--primary-brand-color-iris);
+  background-color: var(--light-color-cloud);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--white-background-color-white);
+  background-color: var(--pressed-state-color-ocean);
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color-navy-blue);
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color-slate);
+}
+
+/* styles non used at the moment
+ WebStudio Page
+
+.header {
+}
+.nav {
+}
+.nav-list {
+}
+.nav-list-item {
+}
+.adress-list {
+}
+.adress-list-item {
+}
+.advantage {
+}
+.hidden {
+}
+.advantage-list {
+}
+.advantage-list-item {
+}
+.works {
+}
+.works-list {
+}
+.works-list-item {
+}
+.works-list-img {
+}
+.team-list-img {
+}
+
+Portfolio Page
+
+.portfolio {
+}
+.hidden {
+}
+.filter-list {
+}
+.filter-item {
+}
+.portfolio-list {
+}
+.portolio-item {
+}
+.portfolio-link {
+}
+.portfolio-img {
+}
