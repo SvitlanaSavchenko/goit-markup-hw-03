@@ -120,7 +120,7 @@ body {
 /*Header*/
 
 .header {
-  border-bottom: 1px solid var(--first-accent-color);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -322,6 +322,7 @@ body {
 .team-list-item {
   background-color: var(--white-background-color-white);
   flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
   
 }
 
@@ -405,6 +406,7 @@ row-gap: 48px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color-navy-blue);
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
